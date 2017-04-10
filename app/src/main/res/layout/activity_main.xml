@@ -8,7 +8,7 @@
     android:columnCount="5"
     tools:context="a67yjh00.com.example.lg.gridcalculator.MainActivity">
     <EditText
-        android:id="@+id/edit_1"
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="0"
@@ -17,7 +17,7 @@
         android:layout_gravity="fill_horizontal"
         />
     <EditText
-        android:id="@+id/edit_2"
+        android:id="@+id/edit2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="0"
@@ -106,6 +106,7 @@
         android:layout_column="4"
         />
     <Button
+        android:id="@+id/but_op0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="더하기"
@@ -115,6 +116,7 @@
         android:layout_gravity="fill_horizontal"
         />
     <Button
+        android:id="@+id/but_op1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="빼기"
@@ -124,6 +126,7 @@
         android:layout_gravity="fill_horizontal"
         />
     <Button
+        android:id="@+id/but_op2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="곱하기"
@@ -133,6 +136,7 @@
         android:layout_gravity="fill_horizontal"
         />
     <Button
+        android:id="@+id/but_op3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="나누기"
